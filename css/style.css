@@ -342,7 +342,7 @@
   }
 
   .aside-content {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .aside-news-title {
@@ -415,6 +415,10 @@
     margin-top: 46px;
   }
 
+  .mail-field {
+    margin-top: 24px;
+  }
+
    .email-field {
     box-sizing: border-box;
     width: 100%;
@@ -466,6 +470,7 @@
   
   .tag {
     border: 3px solid #eeeeee;
+    padding: 1px 13px;
   }
   
   .tag:hover {
@@ -477,11 +482,10 @@
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 7px 13px;
   }
 
   .themes {
-    margin-top: 49px;
+    margin-top: 47px;
   }
   
   .theme-item {
@@ -492,7 +496,7 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 14px;
-    line-height: 3.25;
+    line-height: 3.3;
     padding-right: 2px;
   }
   
@@ -509,30 +513,48 @@
   }
 
   .shop {
-    margin-top: 63px;
+    margin-top: 46px;
   }
 
   .shop-content {
-    padding: 0 15px;
+    padding: 15px 15px;
   }
 
   .product {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .product-img {
     box-sizing: border-box;
     width: 100%;
     min-height: 250px;
-    padding: 0 15px;
+    padding: 0 23px;
   }
 
   .shop-desc {
-    margin-top: -30px;
+    margin-top: -35px;
     border: 3px solid #b59f5b;
-    padding: 0 15px;
+    padding: 38px 15px;
     z-index: 1;
+  }
+
+  .shop-title {
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 12px;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .shop-preview {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 22px;
   }
 
   .shop-link {
