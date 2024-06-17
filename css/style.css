@@ -499,6 +499,11 @@
     padding: 0 15px;
   }
 
+  .product {
+    display: flex;
+    flex-direction: column;
+  }
+
   .product-img {
     box-sizing: border-box;
     width: 100%;
@@ -507,10 +512,10 @@
   }
 
   .shop-desc {
-    position: relative;
-    top: -30px;
+    margin-top: -30px;
     border: 3px solid #b59f5b;
     padding: 0 15px;
+    z-index: 1;
   }
 
   .post-title {
