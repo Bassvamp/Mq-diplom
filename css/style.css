@@ -282,6 +282,14 @@
     margin-bottom: 22px;
   }
 
+  .preview-parag {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 14px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+  }
+
   .news-content {
     box-sizing: border-box;
     display: flex;
