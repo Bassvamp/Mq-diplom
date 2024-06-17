@@ -157,8 +157,7 @@
     position: relative;
     z-index: 1;
     border: 3px solid #b59f5b;
-    padding-bottom: 27px;
-    padding-top: 5px;
+    padding: 5px 0 27px 25px;
   }
 
    .category-link {
