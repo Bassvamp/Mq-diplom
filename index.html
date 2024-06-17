@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    
+
     <header class="header">
         <div class="header-content">
           <div class="logo-nav">
@@ -31,7 +34,7 @@
       </header>
     <div class="page">
       <section class="trends">
-        <h3 class="trends-title">Сейчас в тренде</h3>
+        <h2 class="trends-title">Сейчас в тренде</h2>
         <div class="trend-posts">
           <article class="trend-post">
             <div class="trend-content">
@@ -264,16 +267,16 @@
           <h3 class="aside-title">Наши изделия</h3>
           <div class="shop-content">
             <article class="product">
-              <picture class="product-img">
+              <picture>
                 <source
                   media="(max-width: 640px)"
                   srcset="images/shop-item-mobile1.jpg">
                 <source
-                  media="(min-width: 641px)"
+                  media="(max-width: 1199px)"
                   srcset="images/shop-item-tablet1.jpg">
                 <source
-                  srcset="images/shop-item-desc1.jpg">
-                <!-- <img src="images/shop-item-mobile1.jpg" alt="Подушки на диван"> -->
+                  srcset="images/shop-item-desk1.jpg">
+                <img src="images/shop-item-desk1.jpg" alt="Подушки на диван" class="product-img">
               </picture>
               <div class="shop-desc">
                 <h2 class="post-title">Подушки на диван</h2>
@@ -288,7 +291,17 @@
               </div>
             </article>
             <article class="product">
-              <img src="images/shop-item-mobile2.jpg" alt="Кукла «Зайчик»" class="product-img">
+              <picture>
+                <source
+                  media="(max-width: 640px)"
+                  srcset="images/shop-item-mobile2.jpg">
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="images/shop-item-tablet2.jpg">
+                <source
+                  srcset="images/shop-item-desk2.jpg">
+                  <img src="images/shop-item-desk2.jpg" alt="Кукла «Зайчик»" class="product-img">
+              </picture>
               <div class="shop-desc">
                 <h2 class="post-title">Кукла «Зайчик»</h2>
                 <p class="preview">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#" class="shop-link">весенняя серия постов</a> в блоге и несколько подкастов. <a href="#" class="shop-link">здесь.</a></p>
@@ -301,7 +314,18 @@
               </div>
             </article>
             <article class="product">
-              <img src="images/shop-item-mobile3.jpg" alt="Шестиугольная рамка" class="product-img">
+              <picture>
+                <source
+                  media="(max-width: 640px)"
+                  srcset="images/shop-item-mobile3.jpg">
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="images/shop-item-tablet3.jpg">
+                <source
+                  srcset="images/shop-item-desk3.jpg">
+                  <img src="images/shop-item-desc3.jpg" alt="Шестиугольная рамка" class="product-img">
+              </picture>
+              
               <div class="shop-desc">
                 <h2 class="post-title">Шестиугольная рамка</h2>
                 <p class="preview">Необычная рамка для украшения дома из видео <a href="#" class="shop-link">«Как сделать рамку из подручных средств за 30 минут»</a></p>
@@ -330,5 +354,39 @@
       </footer>
       
       <a href="#0" class="copiryting">Copyright © 2009–2019 City Blog LLC.</a>
+
+      <!--Форма Pop-up-->
+    <div class="popup _hidden">
+      <div class="popup-content">
+        <label class="popup-close" for=""></label>
+        <h2 class="trends-title">Ваш фидбек</h2>
+        <form class="select-form">
+          <label for="select" class="select-label">Как часто вы заходите на сайт</label>
+          <select id="select" class="select-field">
+            <option>Почти каждый день</option>
+            <option selected>Раз в неделю</option>
+            <option>Раз в месяц</option>
+            <option>Первый раз</option>
+          </select>
+        </form>
+        <fieldset class="checkbox-field">
+          <legend>Вы подписаны на e-mail рассылку?</legend>
+          <label class="radio-group">
+            <input type="radio" class="radio" name="radio-group">
+            <span class="checkbox-text">Да</span>
+          </label>
+          <label class="radio-group">
+            <input type="radio" class="radio" name="radio-group">
+            <span class="checkbox-text">Нет</span>
+          </label>
+        </fieldset>
+        <form class="text">
+          <label class="text-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+          <textarea type="text" class="text-field" placeholder="Может, больше рецептов?"></textarea>
+          <button class="button-mail" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
 </body>
 </html>
