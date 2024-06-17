@@ -517,13 +517,16 @@
   }
 
   .shop-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     padding: 15px 15px;
   }
 
   .product {
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 23px;
   }
 
   .product-img {
@@ -554,8 +557,9 @@
     font-family: inherit;
     font-weight: normal;
     font-size: 15px;
-    margin-bottom: 22px;
-    margin-top: 6px;
+    margin-bottom: 21px;
+    margin-top: 5px;
+    line-height: 1.47;
   }
 
   .shop-link {
@@ -565,8 +569,8 @@
   .price-button {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 19px;
+    align-items: center;
+    padding-bottom: 15px;
   }
 
   .old-price {
@@ -580,6 +584,7 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 20px;
+    line-height: 0.8;
   }
 
   .inshop {
