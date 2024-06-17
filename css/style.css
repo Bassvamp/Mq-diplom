@@ -327,7 +327,7 @@
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-    margin: 44px auto 30px;
+    margin: 44px auto 0;
     line-height: 0.6;
   }
   
@@ -411,28 +411,7 @@
     margin-top: 46px;
   }
 
-  .aside-title-mail {
-    position: relative;
-    text-align: center;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 44px auto 24px;
-    line-height: 0.6;
-  }
-  
-  .aside-title-mail::after {
-    position: relative;
-    display: block;
-    content: "";
-    width: 66px;
-    border-bottom: 3px solid #b59f5b;
-    opacity: 0.4;
-    margin: 14px auto;
-  }
-  
-  .email-field {
+   .email-field {
     box-sizing: border-box;
     width: 100%;
     outline: none;
@@ -474,27 +453,6 @@
     margin-top: 45px;
   }
 
-  .aside-title-tags {
-    position: relative;
-    text-align: center;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 44px auto 20px;
-    line-height: 0.6;
-  }
-  
-  .aside-title-tags::after {
-    position: relative;
-    display: block;
-    content: "";
-    width: 66px;
-    border-bottom: 3px solid #b59f5b;
-    opacity: 0.4;
-    margin: 14px auto;
-  }
-  
   .tags-list {
     margin-top: 26px;
     display: flex;
@@ -519,7 +477,7 @@
   }
 
   .themes {
-    margin-top: 63px;
+    margin-top: 49px;
   }
   
   .theme-item {
