@@ -206,7 +206,7 @@
   }
 
   .main-content {
-    padding: 0 15px;
+    padding: 43px 15px 0 15px;
   }
   
   .post-item::after {
@@ -216,7 +216,7 @@
     width: 100%;
     border-bottom: 3px solid #eeeeee;
     opacity: 0.4;
-    margin: 14px 0;
+    margin: 14px 0 35px 0;
   }
 
   .post-item__last::after {
@@ -233,11 +233,15 @@
     width: 100%;
     min-height: 250px;
   }
+
+  .item-content {
+    margin-top: 10px;
+  }
   
   .post-title {
     text-transform: uppercase;
     position: relative;
-    margin-top: 9px;
+    margin-top: 12px;
     font-family: inherit;
     font-size: 16px;
     font-weight: bold;
@@ -250,7 +254,7 @@
   
   .date-author {
     display: flex;
-    margin-top: 15px;
+    margin-top: 17px;
   }
   
   .date {
@@ -273,9 +277,9 @@
   .preview {
     font-family: inherit;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 1.47;
-    margin-bottom: 10px;
+    font-size: 14px;
+    padding-right: 5px;
+    margin-bottom: 22px;
   }
 
   .news-content {
@@ -517,10 +521,6 @@
     border: 3px solid #b59f5b;
     padding: 0 15px;
     z-index: 1;
-  }
-
-  .post-title {
-    padding-top: 50px;
   }
 
   .shop-link {
