@@ -418,7 +418,7 @@
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-    margin: 44px auto 20px;
+    margin: 44px auto 24px;
     line-height: 0.6;
   }
   
@@ -471,7 +471,28 @@
   }
 
   .tags-section {
-    margin-top: 63px;
+    margin-top: 45px;
+  }
+
+  .aside-title-tags {
+    position: relative;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 44px auto 20px;
+    line-height: 0.6;
+  }
+  
+  .aside-title-tags::after {
+    position: relative;
+    display: block;
+    content: "";
+    width: 66px;
+    border-bottom: 3px solid #b59f5b;
+    opacity: 0.4;
+    margin: 14px auto;
   }
   
   .tags-list {
