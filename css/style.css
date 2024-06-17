@@ -523,7 +523,7 @@
   .product {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .product-img {
@@ -536,7 +536,7 @@
   .shop-desc {
     margin-top: -35px;
     border: 3px solid #b59f5b;
-    padding: 38px 15px;
+    padding: 37px 22px 10px 17px;
     z-index: 1;
   }
 
@@ -555,6 +555,7 @@
     font-weight: normal;
     font-size: 15px;
     margin-bottom: 22px;
+    margin-top: 6px;
   }
 
   .shop-link {
@@ -565,7 +566,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 25px;
+    padding-bottom: 19px;
   }
 
   .old-price {
