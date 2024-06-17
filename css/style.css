@@ -116,7 +116,7 @@
   .trend-posts {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 2px;
   }
 
   .trend-post {
@@ -157,7 +157,8 @@
     position: relative;
     z-index: 1;
     border: 3px solid #b59f5b;
-    padding: 5px 0 27px 25px;
+    padding: 32px 0 27px 20px;
+    width: 100%;
   }
 
    .category-link {
@@ -188,11 +189,12 @@
   .trend-title {
     text-transform: uppercase;
     position: relative;
-    margin-top: 9px;
+    margin-top: 11px;
     font-family: inherit;
     font-size: 16px;
     font-weight: bold;
     line-height: 1.2;
+    white-space: pre-line;
   }
 
   .trend-title__link {
