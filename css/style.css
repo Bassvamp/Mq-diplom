@@ -66,12 +66,12 @@
     display: block;
     fill: #ffffff;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 15px;
     width: 25px;
   }
 
   .header-logo {
-   margin: 225px 45px 40px 45px;
+   margin: 170px 45px 30px 45px;
   }
 
   .header-title {
@@ -83,8 +83,34 @@
     font-family: inherit;
     font-weight: bold;
     text-align: center;
-    margin: 0 45px;
-    padding-bottom: 120px;
+    margin: 0 40px;
+    padding-bottom: 210px;
+  }
+
+  .trends {
+    padding-top: 45px;
+    /* margin-bottom: 45px; */
+  }
+
+  .trends-title {
+    position: relative;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 auto 24px;
+    line-height: 0.6;
+  }
+
+  .trends-title::after {
+    position: relative;
+    display: block;
+    content: "";
+    width: 66px;
+    border-bottom: 3px solid #b59f5b;
+    opacity: 0.4;
+    margin: 14px auto;
   }
 
   .trend-posts {
@@ -94,7 +120,7 @@
   }
 
   .trend-post {
-    min-height: 230px; 
+    min-height: 215px; 
     display: flex;
     align-items: end;
     position: relative;
@@ -127,58 +153,12 @@
     background-image: url(../images/trend4.jpg);
   }
 
-  .trends {
-    padding-top: 40px;
-    margin-bottom: 45px;
-  }
-
-  .trends-title {
-    position: relative;
-    text-align: center;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 0 auto 17px;
-    line-height: 0.6;
-  }
-
-  .trends-title::after {
-    position: relative;
-    display: block;
-    content: "";
-    width: 50px;
-    border-bottom: 3px solid #b59f5b;
-    opacity: 0.4;
-    margin: 14px auto 14px auto;
-  }
-
-  .aside-title {
-    position: relative;
-    text-align: center;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 0 auto 17px;
-    line-height: 0.6;
-  }
-  
-  .aside-title::after {
-    position: relative;
-    display: block;
-    content: "";
-    width: 50px;
-    border-bottom: 3px solid #b59f5b;
-    opacity: 0.4;
-    margin: 14px auto;
-  }
-
   .trend-content {
     position: relative;
     z-index: 1;
     border: 3px solid #b59f5b;
-    padding: 25px;
+    padding-bottom: 27px;
+    padding-top: 5px;
   }
 
    .category-link {
@@ -327,6 +307,27 @@
     margin-bottom: 2px;
   }
   
+  .aside-title {
+    position: relative;
+    text-align: center;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 auto 17px;
+    line-height: 0.6;
+  }
+  
+  .aside-title::after {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50px;
+    border-bottom: 3px solid #b59f5b;
+    opacity: 0.4;
+    margin: 14px auto;
+  }
+
   .aside-news-title {
     line-height: 1.1;
   }
