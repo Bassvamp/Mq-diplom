@@ -866,7 +866,7 @@
     .main-content {
       display: flex;
       justify-content: space-between;
-      padding: 11px 35px;
+      padding: 11px 35px 0 35px;
     }
 
     .post {
@@ -886,14 +886,31 @@
 
     .preview {
       font-size: 15px;
+      line-height: 1.4;
     }
 
     .post-item::after {
       margin-bottom: 42px;
     }
-    
+
     .post-item__last::after {
       display: none;
+    }
+
+    .mail {
+      margin-top: 64px;
+    }
+
+    .tags-section {
+      margin-top: 61px;
+    }
+
+    .themes {
+      margin-top: 64px;
+    }
+
+    .shop {
+      margin-top: 0px;
     }
 
     .shop-content {
