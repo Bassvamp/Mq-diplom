@@ -914,18 +914,16 @@
     }
 
     .shop-content {
-      display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
-      gap: 20px;
-      padding: 0 30px;
     }
     
     .product {
-      width: calc((100% - 20px)/2);
+      width: calc((100% - 25px)/2);
     }
 
     .shop-desc {
-      min-height: 265px;
+      min-height: 181px;
     }
   }
 
