@@ -555,7 +555,7 @@
     font-family: inherit;
     font-weight: normal;
     font-size: 15px;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     margin-top: 5px;
     line-height: 1.47;
   }
@@ -609,8 +609,8 @@
 
   .footer {
     padding: 0 15px;
-    margin-top: 65px;
-    margin-bottom: 71px;
+    margin-top: 28px;
+    margin-bottom: 47px;
   }
   
   .footer-content {
