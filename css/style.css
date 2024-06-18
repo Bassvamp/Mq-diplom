@@ -787,6 +787,10 @@
   
   @media (min-width: 641px) {
 
+    .header {
+      padding-top: 42px;
+    }
+
     .page {
       display: flex;
       flex-direction: column;
@@ -806,7 +810,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-      margin-bottom: 100px;
+      margin-bottom: 85px;
     }
 
     .menu-icon {
@@ -826,10 +830,25 @@
       font-size: 40px;
       line-height: 1.4;
       margin: 0 25px;
+      padding-bottom: 111px;
+    }
+    
+    .trends {
+      padding-top: 52px;
     }
 
     .trends-title {
       font-size: 18px;
+      margin-bottom: 22px;
+    }
+
+    .trend-post {
+      min-height: 245px;
+      padding: 0px 15px 12px 19px;
+    }
+
+    .trend-content {
+      padding: 36px 0 32px 31px;
     }
 
     .aside-title {
@@ -847,14 +866,32 @@
     .main-content {
       display: flex;
       justify-content: space-between;
-      padding: 0 35px;
+      padding: 11px 35px;
     }
 
     .post {
-      max-width: 55%;
-      margin-right: 35px;
+      max-width: 56%;
+      margin-right: 37px;
+      padding-top: 44px;
     }
 
+    .post-title {
+      font-size: 17px;
+    }
+
+    .date-author {
+      margin-top: 33px;
+      margin-bottom: 15px;
+    }
+
+    .preview {
+      font-size: 15px;
+    }
+
+    .post-item::after {
+      margin-bottom: 42px;
+    }
+    
     .post-item__last::after {
       display: none;
     }
