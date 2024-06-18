@@ -1030,9 +1030,10 @@
   }
 
   .main-content {
+    box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 12px 15px;
   }
   
   .post {
