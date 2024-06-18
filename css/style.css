@@ -519,14 +519,13 @@
   .shop-content {
     display: flex;
     flex-direction: column;
-    gap: 5px;
     padding: 15px 15px;
   }
 
   .product {
     display: flex;
     flex-direction: column;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
   }
 
   .product-img {
@@ -569,7 +568,7 @@
   .price-button {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding-bottom: 15px;
   }
 
@@ -584,7 +583,7 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 20px;
-    line-height: 0.8;
+    padding-bottom: 8px;
   }
 
   .inshop {
