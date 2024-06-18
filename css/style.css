@@ -567,7 +567,7 @@
   .price-button {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
   }
 
   .price {
@@ -586,6 +586,7 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 20px;
+    line-height: 0.8;
   }
 
   .inshop {
