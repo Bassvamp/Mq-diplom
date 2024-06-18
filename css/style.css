@@ -961,14 +961,14 @@
 
  .header-logo {
     width: 180px;
-    margin: 0 0 0 19px;
+    margin-left:19px;
   }
 
   .header-title {
     max-width: 700px;
     font-size: 45px;
     line-height: 75px;
-    margin: 100px auto 0;
+    margin: 15px auto 0;
     padding-bottom: 126px;
   }
 
@@ -1008,12 +1008,24 @@
     padding-top: 67px;
   }
 
+  .trend-posts {
+    gap: 3px;
+  }
+
+  .trend-post {
+    padding: 136px 20px 15px 20px;
+  }
+
+  .trend-content {
+    padding: 34px 30px 32px 33px;
+  }
+
   .trends-title {
     font-size: 20px;
     margin-bottom: 29px;
   }
 
-  .trend-title {
+  .trend-title__link {
     font-size: 20px;
   }
 
