@@ -531,7 +531,6 @@
   .product-img {
     box-sizing: border-box;
     width: 100%;
-    min-height: 250px;
     padding: 0 23px;
   }
 
@@ -910,14 +909,15 @@
     }
 
     .shop {
-      margin-top: 0px;
+      margin-top: 47px;
     }
 
     .shop-content {
       flex-direction: row;
       flex-wrap: wrap;
+      padding: 8px 36px;
     }
-    
+
     .product {
       width: calc((100% - 25px)/2);
     }
