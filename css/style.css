@@ -89,7 +89,6 @@
 
   .trends {
     padding-top: 45px;
-    /* margin-bottom: 45px; */
   }
 
   .trends-title {
@@ -99,7 +98,7 @@
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
-    margin: 0 auto 24px;
+    margin: 0 auto 20px;
     line-height: 0.6;
   }
 
@@ -847,7 +846,11 @@
     }
 
     .trend-content {
-      padding: 36px 0 32px 31px;
+      padding: 36px 30px 32px 31px;
+    }
+
+    .trend-title {
+      white-space: normal;
     }
 
     .aside-title {
@@ -962,12 +965,15 @@
   }
 
   .header-title {
-    position: relative;
     max-width: 700px;
     font-size: 45px;
     line-height: 75px;
     margin: 100px auto 0;
     padding-bottom: 126px;
+  }
+
+  .logo-nav {
+    padding-bottom: 0;
   }
   
   .nav {
@@ -996,6 +1002,19 @@
   
   .menu-link:hover {
     text-decoration: underline;
+  }
+
+  .trends {
+    padding-top: 67px;
+  }
+
+  .trends-title {
+    font-size: 20px;
+    margin-bottom: 29px;
+  }
+
+  .trend-title {
+    font-size: 20px;
   }
 
   .main-content {
@@ -1032,7 +1051,6 @@
     position: relative;
     margin-right: 30px;
     width: 48%;
-    /* min-width: 380px; */
   }
   
   .item-content {
