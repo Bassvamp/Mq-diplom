@@ -362,7 +362,6 @@
   }
   
   .search-form {
-    appearance: none;
     display: flex;
     position: relative;
     margin-top: 60px;
@@ -371,6 +370,7 @@
   .search {
     flex: 1;
     display: flex;
+    appearance: none;
   }
   
   .visually-hidden {
@@ -420,6 +420,7 @@
   }
 
    .email-field {
+    appearance: none;
     box-sizing: border-box;
     width: 100%;
     outline: none;
