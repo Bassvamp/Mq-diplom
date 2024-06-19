@@ -964,7 +964,10 @@
     }
 
     .popup-content {
-      max-width: 430px;
+      max-width: 390px;
+      margin-top: 180px;
+      padding-top: 58px;
+      padding-bottom: 56px;
     }
   }
 
