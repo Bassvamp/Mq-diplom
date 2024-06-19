@@ -1142,9 +1142,22 @@
     margin-top: 8px;
   }
 
+  .themes {
+    margin-top: 8px;
+  }
+
   .shop {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 52px auto 0;
+  }
+
+  .shop-title {
+    font-size: 20px;
+  }
+
+  .shop-content {
+    padding: 2px 17px 0;
+    justify-content: center;
   }
   
   .product {
