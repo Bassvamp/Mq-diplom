@@ -971,7 +971,7 @@
     }
 
     .shop-desc {
-      min-height: 181px;
+      flex-grow: 1;
     }
 
     .footer {
@@ -1213,7 +1213,6 @@
   }
 
   .shop-desc {
-    min-height: 187px;
     padding: 47px 20px 25px 20px;
   }
 
