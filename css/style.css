@@ -684,6 +684,7 @@
     max-width: 330px;
     margin: 0 auto;
     padding-top: 32px;
+    padding-bottom: 30px;
     z-index: 3;
   }
 
@@ -794,8 +795,8 @@
     width: 100%;
     min-height: 130px;
     padding: 19px;
-    margin-top: 23px;
-    margin-bottom: 30px;
+    margin-top: 6px;
+    margin-bottom: 25px;
   }
 
   @media (max-width: 640px) and (orientation: landscape) , (min-width: 641px) {
