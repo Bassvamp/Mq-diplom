@@ -681,6 +681,8 @@
     background-color: #ffffff;
     box-sizing: border-box;
     width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
     padding-top: 32px;
     z-index: 3;
   }
@@ -741,6 +743,7 @@
 
   .radio-label {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .checkbox-text {
@@ -751,29 +754,37 @@
     content: "";
     display: inline-block;
     background-image: url(../svg/form-empty-circle.svg);
-    background-size: 20px;
+    background-size: 25px;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
+    margin-right: 6px;
   }
 
   .radio:checked ~ .checkbox-text::before {
     background-image: url(../svg/form-circle.svg);
   }
 
+  .radio-group {
+    margin-right: 30px;
+  }
+
+
   .radio {
     position: fixed;
     transform: scale(0);
   }
 
-  .text-label {
+  .text {
+    padding-top: 27px;
     font-family: inherit;
     font-size: 13px;
   }
 
   .text-field {
+    box-sizing: border-box;
     appearance: none;
     border: none;
     background-color: #f4f7f6;
@@ -781,7 +792,10 @@
     font-size: 13px;
     color: #606060;
     width: 100%;
-    min-height: 200px;
+    min-height: 130px;
+    padding: 19px;
+    margin-top: 23px;
+    margin-bottom: 30px;
   }
 
   @media (max-width: 640px) and (orientation: landscape) , (min-width: 641px) {
