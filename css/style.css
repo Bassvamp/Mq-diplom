@@ -1115,6 +1115,7 @@
     margin-right: 30px;
     width: 46%;
     margin-top: 10px;
+    flex-shrink: 0;
   }
   
   .item-content {
