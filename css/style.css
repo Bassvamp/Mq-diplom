@@ -906,6 +906,10 @@
       font-size: 17px;
     }
 
+    .post-item::after {
+      margin-bottom: 41px;
+    }
+
     .date-author {
       margin-top: 33px;
       margin-bottom: 15px;
