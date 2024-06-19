@@ -366,6 +366,10 @@
     position: relative;
     margin-top: 60px;
   }
+
+  input {
+    appearance: none;
+  }
   
   .search {
     flex: 1;
