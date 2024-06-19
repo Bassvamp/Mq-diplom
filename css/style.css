@@ -1227,4 +1227,30 @@
     margin-top: 63px;
     margin-bottom: 71px;
   }
+
+  .popup-content {
+    margin-top: 188px;
+    padding: 54px 0 42px 6px;
+  }
+
+  .popup-close {
+    height: 25px;
+    right: -3px;
+    top: -29px;
+  }
+
+  .select-field {
+    padding-top: 3px;
+  }
+
+  .checkbox-text::before {
+    background-size: 15px;
+    width: 17px;
+    height: 16px;
+  }
+
+  .radio-group {
+    margin-right: 15px;
+  }
+
 }
