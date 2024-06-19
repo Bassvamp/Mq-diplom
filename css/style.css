@@ -667,7 +667,7 @@
     top: 0;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px 20px;
+    padding: 55px 15px;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 2;
   }
@@ -681,17 +681,23 @@
     background-color: #ffffff;
     box-sizing: border-box;
     width: 100%;
-    padding: 20px;
+    padding-top: 32px;
     z-index: 3;
   }
 
   .popup-close {
     position: absolute;
     background-image: url(../svg/form-x.svg);
-    width: 20px;
-    height: 20px;
-    right: 0;
-    top: -22px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    right: 2px;
+    top: -30px;
+  }
+
+  .popup-main {
+    max-width: 280px;
+    margin: 0 auto;
   }
 
   .select-label{
