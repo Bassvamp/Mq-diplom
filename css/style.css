@@ -705,13 +705,17 @@
     font-size: 13px;
   }
 
+  .select-form {
+    padding-top: 4px;
+  }
+
   .select-field {
     width: 100%;
     appearance: none;
     background-image: url(../svg/form-arrows.svg);
     background-repeat: no-repeat;
     background-size: 10px;
-    background-position: 98% center;
+    background-position: 94% center;
     box-sizing: border-box;
     background-color: #f4f7f6;
     color: #606060;
@@ -719,8 +723,8 @@
     font-family: inherit;
     font-size: 13px;
     height: 48px;
-    padding-left: 15px;
-    margin-top: 10px;
+    padding-left: 17px;
+    margin-top: 7px;
     margin-bottom: 30px;
   }
 
@@ -733,6 +737,10 @@
     color: #000000;
     font-family: inherit;
     font-size: 13px;
+  }
+
+  .radio-label {
+    margin-top: 10px;
   }
 
   .checkbox-text {
