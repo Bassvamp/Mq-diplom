@@ -563,6 +563,10 @@
     color: #b59f5b;
   }
 
+  .shop-link:hover {
+    text-decoration: underline;
+  }
+
   .price-button {
     display: flex;
     justify-content: space-between;
