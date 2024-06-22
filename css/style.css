@@ -807,7 +807,7 @@
     margin-bottom: 6px;
   }
 
-  @media (max-width: 640px) and (orientation: landscape) , (min-width: 641px) {
+  @media (max-height: 640px) and (orientation: landscape) , (min-width: 641px) {
 
     .trend-posts {
       flex-direction: row;
@@ -988,7 +988,7 @@
 
 
 
-  @media (max-width: 1199px) and (orientation: landscape) , (min-width: 1200px) {
+  @media (min-height: 641px) and (orientation: landscape) , (min-width: 1200px) and (orientation: portrait) {
 
     .trend-post {
       width: calc((100% - 9px)/4)
