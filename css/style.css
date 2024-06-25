@@ -1035,16 +1035,14 @@
   }
   
   .nav {
-    margin: auto 20px auto 0;
+    margin: auto 15px auto 0;
   }
   
   .top-menu {
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-right: -4px;
-    margin-top: 2px;
-    gap: 35px;
+    gap: 34px;
   }
   
   .menu-link {
